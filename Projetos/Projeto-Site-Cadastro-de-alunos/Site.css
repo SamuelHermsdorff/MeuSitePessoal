@@ -1,0 +1,86 @@
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+button{
+    height: 20px;
+    width: 100px;
+    background-color: rgb(59, 59, 247);
+    color: white;
+}
+div{
+    text-align: center;
+}
+input{
+    width: 200px;
+}
+header {
+    background-color: rgb(54, 54, 179);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+body{
+    margin: 0;
+    background-color: #c4bfbf;
+}
+img{
+    width: 200px;
+    text-align: center;
+}
+
+.nav-bar { 
+    padding:1em; 
+    text-align:center; 
+  }
+  .nav-bar .nav-link {
+    padding: 8px 0;
+    margin: 0 20px;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    position: relative;
+  }
+  .nav-bar .nav-link::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    padding: 8px 0;
+    max-width: 0;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    color: black;
+    content: attr(data-hover);
+    -webkit-transition: max-width 0.5s;
+    -moz-transition: max-width 0.5s;
+    transition: max-width 0.5s;
+  }
+  .nav-bar .nav-link:hover::before { max-width: 100%; }
+  .nav-bar .active {
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .item{
+    width: 470px;
+    height: 490px;
+    background: white;
+    border: solid 5px rgb(54, 54, 179);
+    border-radius: 50px;
+  }
+
+  

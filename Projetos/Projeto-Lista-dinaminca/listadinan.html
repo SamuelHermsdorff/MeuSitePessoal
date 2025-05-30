@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Dinâmica Premium | Samuel Linhares</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Lista-CSS.css">
+</head>
+<body>
+    <header class="glass-header">
+        <h1 class="gradient-text">Lista Dinâmica Premium</h1>
+    </header>
+    
+    <div class="navigation">
+        <a href="../../index.html" class="modern-button botao-voltar">
+            <i class="fas fa-arrow-left"></i>
+            <span>Voltar ao Portfólio</span>
+            <div class="hover-effect"></div>
+        </a>
+    </div>
+
+    <main>
+        <section class="card-section">
+            <h3>Adicione um item na lista:</h3>
+            <div class="input-group">
+                <input type="text" id="itemInput" placeholder="Digite um item...">
+                <button onclick="addItem()" class="modern-button" id="addBtn">
+                    <i class="fas fa-plus"></i>
+                    <span>Adicionar</span>
+                    <div class="hover-effect"></div>
+                </button>
+            </div>
+        </section>
+        
+        <section class="card-section">
+            <h1 class="section-title">Minha Lista</h1>
+            <ul id="itemList"></ul>
+        </section>
+    </main>
+
+    <footer class="glass-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-text">SL</span>
+                <span>Samuel Linhares</span>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2023 Samuel Hermsdorff Figueiredo Linhares. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="Lista-JS.js"></script>
+</body>
+</html>

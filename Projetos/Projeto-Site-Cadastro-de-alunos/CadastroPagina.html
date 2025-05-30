@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Alunos</title>
+    <link rel="stylesheet" href="Site.css">
+    
+</head>
+<body>
+    
+    <div class="container">
+        <div class="item">
+            <header>
+                <nav class="nav-bar">
+                    <a href="CadastroPagina.html" class="nav-link active" data-hover="Cadastrar">Cadastrar</a>
+                    <a href="Alterar.html" class="nav-link" data-hover="Alterar">Alterar</a>
+                    <a href="Consulta.html" class="nav-link" data-hover="Consulta">Consulta</a>
+                    <a href="Deletar.html" class="nav-link" data-hover="Excluir">Excluir</a>
+                  </nav>
+            </header>
+            <br>
+            <div>
+                <img style="width: 170px;" src="../../Fotos/estudante.png" alt="">
+                <h2>Cadastrar Aluno</h2>
+                <form>
+                    <div>
+                        <label>Aluno:</label>
+                        <input type="text" id="nome_aluno" name="nome_aluno" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label>Curso:</label>
+                        <input type="text" id="curso" name="curso" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label>Horário de:</label>
+                        <input style="width: 70px" type="time" id="horario_inicial" name="horario_inicial" required>
+                        <label>até</label>
+                        <input style="width: 70px" type="time" id="horario_final" name="horario_final" required>
+                    </div>
+                </form>
+                <br>
+                <button type="submit">Cadastrar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

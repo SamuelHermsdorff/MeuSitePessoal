@@ -69,7 +69,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(fundo.png);
+    background-image: url(../../Fotos/fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
